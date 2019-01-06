@@ -1,0 +1,279 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*Подключение шрифтов*/
+@font-face{
+font-family: 'Roboto Regular';
+src: url('fonts/Roboto-Regular.ttf') format('truetype');
+}
+@font-face{
+font-family: 'Roboto Bold';
+src: url('fonts/Roboto-Bold.ttf') format('truetype');
+}
+@font-face{
+font-family: 'Calypso';
+src: url('fonts/Calypso.ttf') format('truetype');
+}
+/*Общие свойства*/
+a {
+	color: inherit;
+	width: inherit;
+	text-decoration: none;
+}
+body {
+	width: 100%;
+	text-decoration: none;
+}
+h2 {
+	font-size: 40px;
+	font-family: Roboto Bold, sans-serif;
+	color: #ab8b6a;
+}
+h3 {
+	font-size: 24px;
+	height: inherit;
+	color: #ffffff;
+}
+h4 {
+	font-size: 20px;
+	height: inherit;
+}
+h5 {
+	font-size: 16px;
+	height: inherit;
+}
+.wrapper {
+	width: 96%;
+	max-width: 960px;
+	margin: 0 auto;
+	height: 100%;
+}
+/*Свойства главной картинки*/
+.mphoto {
+	opacity: 0.102;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+}
+.mask {
+	background-color: #191919;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: inherit;
+}
+/*Контакты в шопке*/
+	header {
+		color: #919190;
+		width: 100%;
+		height: 1080px;
+		font-family: Roboto Regular, sans-serif;
+		position: static;
+	}
+	hr {
+		border: none; /* Убираем границу */
+		background-color: #323231; /* Цвет линии */
+		color: #323231; /* Цвет линии для IE6-7 */
+		height: 2px; /* Толщина линии */
+		position: relative;
+		top: 60px;
+   }
+	.contacts {
+		display: inline-flex;
+		width: 100%;
+		height: 100%;
+	}
+	.address {
+		margin-top: 20px;
+		padding-right: 24%;
+	}
+	.worktime {
+		margin-top: 20px;
+		margin-right: 10px;
+	}
+	.mobile {	
+		margin-top: 20px;
+		text-decoration: underline;
+	}
+	/*Логотип, кнопка, меню и услуги*/
+	.mainmenu {
+		position: absolute;
+		left: 0px;
+		top: 90px;
+		width: 100%;
+		height:  90%;
+	}
+	.logo {
+		font-family: Calypso, sans-serif;
+		font-size: 60px;
+		color: #d0a87f;
+		align-items: center;
+		text-align: center;
+		text-transform: uppercase;
+	}
+	menu {
+		text-align: center;
+		margin-top: 20px;
+	}
+	ul {
+		display: inline-flex;
+	}
+	li {
+		margin: 20px;
+		font-family: Roboto Regular, sans-serif;
+		color: #ffffff;
+	}
+	.services {
+		display: inline-flex;
+		margin-top: 70px;
+		width: 100%;
+		font-weight: 100;
+		font-style: lighter;
+	}
+	.trinkets, .knifes {
+		margin-top: 80px;
+	}
+	.left {
+		margin-right: 40px;
+	}
+	.right {
+		margin-left: 40px;
+	}
+	.key, .trinket, .umbrella, .knife{
+		margin-bottom:  40px;
+	}
+	.about {
+		margin-top: 20px;
+		margin-bottom: 40px;
+	}
+	.takephone {
+		display: flex;
+  		align-items: center;
+  		justify-content: center;
+  		margin-top: 90px;
+	}
+	button {
+		width: 265px;
+		height: 55px;
+		color: #000000;
+		font-size: 24px;
+		background-color: #ab8b6a;
+		border: none;
+		border-radius: 50px;
+		font-family: Roboto Regular, sans-serif;
+		margin: 0 auto;
+	}
+	/*Описание*/
+	.aboutus {
+		position: static;
+		width: 100%;
+		height: 475px;
+	}
+	.textabout {
+		padding-top: 100px;
+	}
+	.info {
+		padding-top: 40px;
+	}
+	.footerphoto {
+		width: 100%;
+	}
+	/*Контакты с картой*/
+	.fulladress {
+		position: static;
+		display: inline;
+		width: 100%;
+	}
+	.two {
+		display: inline-flex;
+		width: 100%;
+	}
+	.map {
+		width: 50%;
+	}
+	.find {
+		padding-top: 100px;
+		padding-left: 100px; 
+	}
+	.category {
+		padding-top: 40px;
+	}
+	.adr {
+		padding-top: 6px;
+		font-size: 20px;
+	}
+	.value {
+		padding-top: 6px;
+		font-size: 20px;
+		text-decoration: underline;
+	}
+	/*Нижняя часть сайта*/
+	footer {
+		position: static;
+		height: 90px;
+		background-color: #191919;
+	}
+	.down {
+		height: inherit;
+		width: 100%;
+		color: #a5a5a5;
+		font-family: Roboto Regular, sans-serif;
+		display: inline-flex;
+	}
+	.org {
+		width: 50%;
+	}
+	.fullorg {
+		width: 100%;
+	}
+	.up {
+		width: 50%;
+		text-align: right;
+		text-decoration: underline;
+	}
+	.org, .up {
+		padding-top: 40px;
+	}
