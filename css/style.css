@@ -251,6 +251,7 @@ button {
 	width: 50%;
 	float: left;
 	padding-right: 100px;
+	height: inherit;
 }
 .category {
 	padding-top: 40px;
@@ -348,10 +349,11 @@ footer {
 	.map {
 		width: 100%;
 		padding-right: 0px;
+		height: 300px;
 	}
 	.fulladress {
 		text-align: center;
-		height: 1000px;
+		height: 800px;
 	}
 	.mphoto {
 		width: 1920px;
