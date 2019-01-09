@@ -185,10 +185,10 @@ li {
 	float: left;
 	width: 46%;
 }
-.keys, .trinkets {
+.umbrellas, .keys {
 	padding-right: 38px;
 }
-.umbrellas, .knifes {
+.trinkets, .knifes {
 	padding-left: 38px;
 }
 .key, .umbrella, .trinket, .knife {
