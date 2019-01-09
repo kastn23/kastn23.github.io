@@ -331,6 +331,7 @@ footer {
 		width: 100%;
 		clear: left;
 		padding-left: 0px;
+		padding-right: 0px;
 		margin-top: 40px;
 	}
 	header {
@@ -351,9 +352,6 @@ footer {
 	.fulladress {
 		text-align: center;
 		height: 1000px;
-	}
-	.keys, .trinkets {
-		padding-right: 0px;
 	}
 	.mphoto {
 		width: 1920px;
