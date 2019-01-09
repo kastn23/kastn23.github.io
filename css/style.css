@@ -349,6 +349,12 @@ footer {
 		height: 1000px;
 	}
 	.keys, .trinkets {
-	padding-right: 0px;
+		padding-right: 0px;
+	}
+	.mphoto {
+		width: 1920px;
+	}
+	.mask {
+		overflow: hidden;
 	}
 }
