@@ -110,179 +110,235 @@ p {
 	height: inherit;
 }
 /*Контакты в шопке*/
-	header {
-		color: #919190;
-		width: 100%;
-		height: 1080px;
-		font-family: Roboto Regular, sans-serif;
-		position: static;
+header {
+	color: #919190;
+	width: 100%;
+	height: 1080px;
+	font-family: Roboto Regular, sans-serif;
+	position: static;
+}
+hr {
+	border: none; /* Убираем границу */
+	background-color: #323231; /* Цвет линии */
+	color: #323231; /* Цвет линии для IE6-7 */
+	height: 2px; /* Толщина линии */
+	position: relative;
+	top: 60px;
+}
+.home {
+	position: absolute;
+	align-items: center;
+	width: 100%;
+}
+.contacts {
+	display: inline-flex;
+	width: 100%;
+	height: 100%;
+}
+.address {
+	margin-top: 20px;
+	padding-right: 24%;
+}
+.worktime {
+	margin-top: 20px;
+	margin-right: 10px;
+}
+.mobile {	
+	margin-top: 20px;
+	text-decoration: underline;
+}
+/*Логотип, кнопка, меню и услуги*/
+.mainmenu {
+	position: absolute;
+	left: 0px;
+	top: 90px;
+	width: 100%;
+	height:  90%;
+}
+.logo {
+	font-family: Calypso, sans-serif;
+	font-size: 60px;
+	color: #d0a87f;
+	align-items: center;
+	text-align: center;
+	text-transform: uppercase;
+}
+menu {
+	text-align: center;
+	margin-top: 20px;
+}
+ul {
+	display: inline-flex;
+}
+li {
+	margin: 20px;
+	font-family: Roboto Regular, sans-serif;
+	color: #ffffff;
+}
+.services {
+	width: 100%;
+	position: static;
+}
+.keys, .umbrellas, .trinkets, .knifes {
+	margin-top: 80px;
+	margin-bottom: 40px;
+	float: left;
+	width: 46%;
+}
+.keys, .trinkets {
+	padding-right: 38px;
+}
+.umbrellas, .knifes {
+	padding-left: 38px;
+}
+.key, .umbrella, .trinket, .knife {
+	margin-bottom: 40px;
+}
+.about {
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+/*.takephone {
+	display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-top: 90px;
+}
+button {
+	width: 265px;
+	height: 55px;
+	color: #000000;
+	font-size: 24px;
+	background-color: #ab8b6a;
+	border: none;
+	border-radius: 50px;
+	font-family: Roboto Regular, sans-serif;
+	margin: 0 auto;
+}*/
+/*Описание*/
+.aboutus {
+	position: static;
+	width: 100%;
+}
+.textabout {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+.info {
+	padding-top: 40px;
+}
+.footerphoto {
+	position: static;
+	width: 100%;
+}
+/*Контакты с картой*/
+.fulladress {
+	position: static;
+	width: 100%;
+	height: 470px;
+	display: block;
+}
+.find {
+	position: static;
+	padding-top: 100px;
+	width: 39%;
+	float: right;
+}
+.map {
+	position: static;
+	width: 50%;
+	float: left;
+	padding-right: 100px;
+}
+.category {
+	padding-top: 40px;
+}
+.adr {
+	padding-top: 6px;
+	font-size: 20px;
+}
+.value {
+	padding-top: 6px;
+	font-size: 20px;
+	text-decoration: underline;
+}
+/*Нижняя часть сайта*/
+footer {
+	height: 90px;
+	background-color: #191919;
+	position: static;
+}
+.down {
+	height: inherit;
+	width: 100%;
+	color: #a5a5a5;
+	font-family: Roboto Regular, sans-serif;
+	display: inline-flex;
+}
+.org {
+	width: 50%;
+}
+.fullorg {
+	width: 100%;
+}
+.up {
+	width: 50%;
+	text-align: right;
+	text-decoration: underline;
+}
+.org, .up {
+	padding-top: 40px;
+}
+/*Свойства адаптивности для планшетов*/
+@media (max-width: 1000px) {
+	.home {
+		display: none;
 	}
 	hr {
-		border: none; /* Убираем границу */
-		background-color: #323231; /* Цвет линии */
-		color: #323231; /* Цвет линии для IE6-7 */
-		height: 2px; /* Толщина линии */
-		position: relative;
-		top: 60px;
-   }
-   .home {
-		position: absolute;
-		align-items: center;
-		width: 100%;
+		display: none;
 	}
-	.contacts {
-		display: inline-flex;
-		width: 100%;
-		height: 100%;
-	}
-	.address {
-		margin-top: 20px;
-		padding-right: 24%;
-	}
-	.worktime {
-		margin-top: 20px;
-		margin-right: 10px;
-	}
-	.mobile {	
-		margin-top: 20px;
-		text-decoration: underline;
-	}
-	/*Логотип, кнопка, меню и услуги*/
 	.mainmenu {
 		position: absolute;
-		left: 0px;
-		top: 90px;
-		width: 100%;
-		height:  90%;
+		margin-top: -70px;
 	}
-	.logo {
-		font-family: Calypso, sans-serif;
-		font-size: 60px;
-		color: #d0a87f;
+}
+/*Свойства адаптивности для телефонов*/
+@media (max-width: 989px) {
+	.home {
+		display: none;
+	}
+	hr {
+		display: none;
+	}
+	.mainmenu {
+		position: absolute;
+		margin-top: -70px;
+	}
+	.keys, .umbrellas, .trinkets, .knifes {
+		margin-top: 0px;
+		margin-bottom: 0px;
+		width: 100%;
+		clear: left;
+		padding-left: 0px;
+		margin-top: 40px;
+	}
+	header {
+		height: 1400px;
 		align-items: center;
 		text-align: center;
-		text-transform: uppercase;
 	}
-	menu {
-		text-align: center;
-		margin-top: 20px;
-	}
-	ul {
-		display: inline-flex;
-	}
-	li {
-		margin: 20px;
-		font-family: Roboto Regular, sans-serif;
-		color: #ffffff;
-	}
-	.services {
-		display: inline-flex;
-		margin-top: 70px;
-		width: 100%;
-		font-weight: 100;
-		font-style: lighter;
-	}
-	.trinkets, .knifes {
-		margin-top: 80px;
-	}
-	.left {
-		margin-right: 40px;
-	}
-	.right {
-		margin-left: 40px;
-	}
-	.key, .trinket, .umbrella, .knife{
-		margin-bottom:  40px;
-	}
-	.about {
-		margin-top: 20px;
-		margin-bottom: 40px;
-	}
-	.takephone {
-		display: flex;
-  		align-items: center;
-  		justify-content: center;
-  		margin-top: 90px;
-	}
-	button {
-		width: 265px;
-		height: 55px;
-		color: #000000;
-		font-size: 24px;
-		background-color: #ab8b6a;
-		border: none;
-		border-radius: 50px;
-		font-family: Roboto Regular, sans-serif;
-		margin: 0 auto;
-	}
-	/*Описание*/
 	.aboutus {
-		position: static;
-		width: 100%;
-		height: 475px;
+		align-items: center;
+		text-align: center;
 	}
-	.textabout {
-		padding-top: 100px;
-	}
-	.info {
-		padding-top: 40px;
-	}
-	.footerphoto {
-		width: 100%;
-	}
-	/*Контакты с картой*/
-	.fulladress {
-		position: static;
-		display: inline;
-		width: 100%;
-	}
-	.two {
-		display: inline-flex;
+	.find {
 		width: 100%;
 	}
 	.map {
-		width: 50%;
-	}
-	.find {
-		padding-top: 100px;
-		padding-left: 100px; 
-	}
-	.category {
-		padding-top: 40px;
-	}
-	.adr {
-		padding-top: 6px;
-		font-size: 20px;
-	}
-	.value {
-		padding-top: 6px;
-		font-size: 20px;
-		text-decoration: underline;
-	}
-	/*Нижняя часть сайта*/
-	footer {
-		position: static;
-		height: 90px;
-		background-color: #191919;
-	}
-	.down {
-		height: inherit;
-		width: 100%;
-		color: #a5a5a5;
-		font-family: Roboto Regular, sans-serif;
-		display: inline-flex;
-	}
-	.org {
-		width: 50%;
-	}
-	.fullorg {
 		width: 100%;
 	}
-	.up {
-		width: 50%;
-		text-align: right;
-		text-decoration: underline;
+	.fulladress {
+		text-align: center;
+		height: 1000px;
 	}
-	.org, .up {
-		padding-top: 40px;
-	}
+}
