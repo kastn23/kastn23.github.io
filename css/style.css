@@ -291,6 +291,9 @@ footer {
 }
 /*Свойства адаптивности для планшетов*/
 @media (max-width: 1000px) {
+	body {
+		width: 100%;
+	}
 	.home {
 		display: none;
 	}
@@ -304,6 +307,9 @@ footer {
 }
 /*Свойства адаптивности для телефонов*/
 @media (max-width: 989px) {
+	body {
+		width: 100%;
+	}
 	.home {
 		display: none;
 	}
@@ -336,9 +342,13 @@ footer {
 	}
 	.map {
 		width: 100%;
+		padding-right: 0px;
 	}
 	.fulladress {
 		text-align: center;
 		height: 1000px;
+	}
+	.keys, .trinkets {
+	padding-right: 0px;
 	}
 }
