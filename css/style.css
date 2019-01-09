@@ -223,6 +223,8 @@ button {
 .textabout {
 	margin-top: 100px;
 	margin-bottom: 100px;
+	font-family: Roboto Regular, sans-serif;
+	text-align: justify;
 }
 .info {
 	padding-top: 40px;
@@ -261,6 +263,9 @@ button {
 	padding-top: 6px;
 	font-size: 20px;
 	text-decoration: underline;
+}
+.category, .adr, .value {
+	font-family: Roboto Regular, sans-serif;
 }
 /*Нижняя часть сайта*/
 footer {
