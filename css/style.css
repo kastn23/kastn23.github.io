@@ -44,15 +44,15 @@ table {
 /*Подключение шрифтов*/
 @font-face{
 	font-family: Roboto Regular;
-	src: url(http://zelmasterkey.ru/fonts/Roboto-Regular.ttf);
+	src: url(fonts/Roboto-Regular.ttf);
 }
 @font-face{
 	font-family: Roboto Bold;
-	src: url(http://zelmasterkey.ru/fonts/Roboto-Bold.ttf);
+	src: url(fonts/Roboto-Bold.ttf);
 }
 @font-face{
 	font-family: Calypso;
-	src: url(http://zelmasterkey.ru/fonts/Calypso.ttf);
+	src: url(fonts/Calypso.ttf);
 }
 /*Общие свойства*/
 html {
