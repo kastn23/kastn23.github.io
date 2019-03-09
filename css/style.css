@@ -67,10 +67,6 @@ body {
 	width: 100%;
 	text-decoration: none;
 }
-h1 {
-	font-family: Calypso, sans-serif;
-	font-size: 60px;
-}
 h2 {
 	font-size: 40px;
 	font-family: Roboto Bold, sans-serif;
@@ -157,6 +153,8 @@ header {
 	height:  90%;
 }
 .logo {
+	font-family: Calypso, sans-serif;
+	font-size: 60px;
 	color: #d0a87f;
 	align-items: center;
 	text-align: center;
