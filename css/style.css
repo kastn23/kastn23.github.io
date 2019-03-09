@@ -43,16 +43,16 @@ table {
 }
 /*Подключение шрифтов*/
 @font-face{
-font-family: 'Roboto Regular';
-src: url('fonts/Roboto-Regular.ttf') format('truetype');
+	font-family: Roboto Regular;
+	src: url(http://zelmasterkey.ru/css/fonts/Roboto-Regular.ttf);
 }
 @font-face{
-font-family: 'Roboto Bold';
-src: url('fonts/Roboto-Bold.ttf') format('truetype');
+	font-family: Roboto Bold;
+	src: url(http://zelmasterkey.ru/css/fonts/Roboto-Bold.ttf);
 }
 @font-face{
-font-family: 'Calypso';
-src: url('fonts/Calypso.ttf') format('truetype');
+	font-family: Calypso;
+	src: url(http://zelmasterkey.ru/css/fonts/Calypso.ttf);
 }
 /*Общие свойства*/
 html {
