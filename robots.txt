@@ -1,2 +1,10 @@
+User-agent: Yandex
+Allow: /
+Host: zelmasterkey.ru
+Sitemap:
+
 User-agent: *
 Allow: /
+Host: zelmasterkey.ru
+Sitemap:
+
