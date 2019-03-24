@@ -1,10 +1,8 @@
 User-agent: Yandex
-Allow: /
-Host: zelmasterkey.ru
+Disallow: /
 Sitemap: http://zelmasterkey.ru/sitemap.xml
 
 User-agent: *
-Allow: /
-Host: zelmasterkey.ru
+Disallow: /
 Sitemap: http://zelmasterkey.ru/sitemap.xml
 
