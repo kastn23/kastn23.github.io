@@ -1,5 +1,5 @@
 User-agent: *
 Allow: /
-Host: zelmasterkey.ru
 Sitemap: http://zelmasterkey.ru/sitemap.xml
+Host: zelmasterkey.ru
 
