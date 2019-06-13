@@ -292,24 +292,8 @@ footer {
 .org, .up {
 	padding-top: 40px;
 }
-/*Свойства адаптивности для планшетов*/
+/*Свойства адаптивности для телефонов/планшетов*/
 @media (max-width: 1000px) {
-	body {
-		width: 100%;
-	}
-	.home {
-		display: none;
-	}
-	hr {
-		display: none;
-	}
-	.mainmenu {
-		position: absolute;
-		margin-top: -70px;
-	}
-}
-/*Свойства адаптивности для телефонов*/
-@media (max-width: 989px) {
 	body {
 		width: 100%;
 	}
