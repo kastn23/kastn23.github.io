@@ -293,7 +293,7 @@ footer {
 	padding-top: 40px;
 }
 /*Свойства адаптивности для телефонов/планшетов*/
-@media (max-width: 1000px) {
+@media (max-width: 1010px) {
 	body {
 		width: 100%;
 	}
