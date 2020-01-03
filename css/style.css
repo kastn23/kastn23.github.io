@@ -56,7 +56,8 @@ table {
 }
 /*Общие свойства*/
 html {
-  scroll-behavior: smooth; /* свойство scroll-behavior не наследуется, применяется к прокручиваемым блокам */ 
+  scroll-behavior: smooth; /* свойство scroll-behavior не наследуется, применяется к прокручиваемым блокам */
+  margin-right: 0; 
 }
 a {
 	color: inherit;
@@ -195,11 +196,9 @@ li {
 	margin-top: 20px;
 	margin-bottom: 40px;
 }
-/*.takephone {
-	display: flex;
-		align-items: center;
-		justify-content: center;
-		margin-top: 90px;
+.takephone {
+	display: block;
+	justify-content: center;
 }
 button {
 	width: 265px;
@@ -210,8 +209,73 @@ button {
 	border: none;
 	border-radius: 50px;
 	font-family: Roboto-Regular, sans-serif;
-	margin: 0 auto;
-}*/
+	margin: auto;
+	outline: none;
+}
+.form-group h5{
+	color: #919190;
+    font-family: Roboto-Regular, sans-serif;
+}
+.form-group h2 {
+    margin-bottom: 20px;
+}
+.form-group h4 {
+    margin-bottom: 20px;
+}
+.name {
+	background-image: url(../img/phone-book.png);
+	margin-bottom: 40px;
+    background-repeat: no-repeat;
+    background-position: 20px center;
+    padding-left: 80px;
+    border-bottom: 1px solid #dedede;
+	background-size: auto 50%;
+}
+.name_input {
+    height: 80px;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    outline: 0;
+    color: #666;
+    width: 100%;
+}
+.tel {
+	background-image: url(../img/phone-symbol.png);
+	margin-bottom: 40px;
+    background-repeat: no-repeat;
+    background-position: 20px center;
+    padding-left: 80px;
+    border-bottom: 1px solid #dedede;
+	background-size: auto 50%;
+}
+.tel_input {
+    height: 80px;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    outline: 0;
+    color: #666;
+    width: 100%;
+}
+.text {
+	background-image: url(../img/list.png);
+	margin-bottom: 40px;
+    background-repeat: no-repeat;
+    background-position: 20px center;
+    padding-left: 80px;
+    border-bottom: 1px solid #dedede;
+	background-size: auto 50%;
+}
+.text_input {
+    height: 80px;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    outline: 0;
+    color: #666;
+    width: 100%;
+}
 /*Описание*/
 .aboutus {
 	position: static;
@@ -292,10 +356,15 @@ footer {
 .org, .up {
 	padding-top: 40px;
 }
-/*Свойства адаптивности для телефонов/планшетов*/
+/*Свойства адаптивности для планшетов и телефонов*/
 @media (max-width: 1010px) {
 	body {
 		width: 100%;
+	}
+	header {
+		height: 1600px;
+		align-items: center;
+		text-align: center;
 	}
 	.home {
 		display: none;
@@ -309,18 +378,17 @@ footer {
 	}
 	.keys, .umbrellas, .trinkets, .knifes {
 		margin-top: 0px;
-		margin-bottom: 0px;
+		margin-bottom: 40px;
 		width: 100%;
 		clear: left;
 		padding-left: 0px;
 		padding-right: 0px;
 		margin-top: 40px;
 	}
-	header {
-		height: 1400px;
-		align-items: center;
-		text-align: center;
-	}
+/*	.form_elem {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}*/
 	.textabout {
 		text-align: center;
 	}
@@ -342,4 +410,4 @@ footer {
 	.mask {
 		overflow: hidden;
 	}
-}
+}	

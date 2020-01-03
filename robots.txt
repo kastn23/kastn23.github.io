@@ -1,6 +1,5 @@
 User-agent: *
 Allow: /
-Sitemap: http://zelmasterkey.ru/sitemap.xml
-Sitemap: https://zelmasterkey.ru/sitemap.xml
-Host: zelmasterkey.ru
+Sitemap: https://zelkey.ru/sitemap.xml
+Host: zelkey.ru
 
