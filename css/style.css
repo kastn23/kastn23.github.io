@@ -161,6 +161,9 @@ header {
 	text-align: center;
 	text-transform: uppercase;
 }
+.logo_img {
+	width: 50%;
+}
 nav {
 	text-align: center;
 	margin-top: 20px;
