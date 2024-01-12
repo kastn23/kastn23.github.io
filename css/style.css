@@ -178,7 +178,7 @@ li {
 	width: 100%;
 	position: static;
 }
-.keys, .umbrellas, .trinkets, .knifes {
+.keys, .umbrellas, .cameras, .knifes {
 	margin-top: 80px;
 	margin-bottom: 40px;
 	float: left;
@@ -187,10 +187,10 @@ li {
 .umbrellas, .keys {
 	padding-right: 38px;
 }
-.trinkets, .knifes {
+.cameras, .knifes {
 	padding-left: 38px;
 }
-.key, .umbrella, .trinket, .knife {
+.key, .umbrella, .camera, .knife {
 	margin-bottom: 40px;
 }
 .about {
@@ -377,7 +377,7 @@ footer {
 		position: absolute;
 		margin-top: -70px;
 	}
-	.keys, .umbrellas, .trinkets, .knifes {
+	.keys, .umbrellas, .cameras, .knifes {
 		margin-top: 0px;
 		margin-bottom: 40px;
 		width: 100%;
