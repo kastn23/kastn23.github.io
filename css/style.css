@@ -299,7 +299,7 @@ button {
 .fulladress {
 	position: static;
 	width: 100%;
-	height: 470px;
+	height: 530px;
 	display: block;
 }
 .find {
@@ -372,6 +372,9 @@ footer {
 	}
 	hr {
 		display: none;
+	}
+	.logo_img {
+		width: 50%;
 	}
 	.mainmenu {
 		position: absolute;
