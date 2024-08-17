@@ -160,7 +160,8 @@ header {
 	text-transform: uppercase;
 }
 .logo_img {
-	width: 50%;
+	position: relative;
+	width: 20%;
 }
 nav {
 	text-align: center;
